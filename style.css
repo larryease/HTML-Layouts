@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 90%);
+    font-size: 15px;
+    font-family: url(https://fonts.google.com/specimen/Lexend+Deca);
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    display: flex;
+    width: fit-content;
+    overflow: none;
+    padding: 20px;
+}
+#a {
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+
+}
+.d {
+    color: hsl(31, 77%, 52%);
+}
+
+.d:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+#b {
+    background-color: hsl(184, 100%, 22%);
+
+}
+.e {
+    color: hsl(184, 100%, 22%);
+}
+
+.e:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+#c {
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+
+}
+.f {
+    color: hsl(179, 100%, 13%);
+}
+
+.f:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+}
+
+.child {
+
+    padding: 50px 20px;
+
+
+}
+img {
+    padding-bottom: 10px;
+}
+h2 {
+    padding-bottom: 10px;
+    color: hsl(0, 0%, 95%);
+}
+p {
+    padding-bottom: 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+
+
+}
+
+button {
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    position: relative;
+
+
+}
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+/*@media screen and(max-width: 1440px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+}*/
