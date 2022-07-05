@@ -53,3 +53,8 @@ main div{
     padding: 32px;
     text-align: center;
 }
+
+a{
+
+    font-weight: bold;
+}
